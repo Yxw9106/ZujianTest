@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0D03F6B6A6341836F2139C5A /* Pods-ZujianTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZujianTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZujianTest_Tests/Pods-ZujianTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		35C9988DA92CCFCDFB93F7FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		35C9988DA92CCFCDFB93F7FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZujianTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZujianTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		87E10D3F50A05D19ECDDBCDE /* Pods_ZujianTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZujianTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0547FB86431D19E5AB9F7E /* Pods-ZujianTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZujianTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZujianTest_Example/Pods-ZujianTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9FDF040EE1EACAC72E86D607 /* Pods-ZujianTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZujianTest_Example.release.xcconfig"; path = "Target Support Files/Pods-ZujianTest_Example/Pods-ZujianTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2999E8D8546A96016F6D508 /* ZujianTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZujianTest.podspec; path = ../ZujianTest.podspec; sourceTree = "<group>"; };
-		E025FA495BF12E0E46BD53E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2999E8D8546A96016F6D508 /* ZujianTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZujianTest.podspec; path = ../ZujianTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E025FA495BF12E0E46BD53E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				6BC18D5364049A540B4AACD6 /* Pods-ZujianTest_Tests.debug.xcconfig */,
 				0D03F6B6A6341836F2139C5A /* Pods-ZujianTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
